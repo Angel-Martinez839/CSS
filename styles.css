@@ -1,10 +1,34 @@
-body{
-    color: brown;
-    font-size: 25px;
-}p{
-    color: steelblue;
+
+body {
+font-family: sans-serif;
+color: gold;
+font-size: 25x;
 }
-.color{
-    color: blueviolet;
-    font-size: 26px;
+
+
+header nav ul li a {
+color: blue;
 }
+
+aside ul li a {
+color: green;
+}
+
+footer ul li a {
+color: red;
+}
+
+
+.btn-comprar {
+color: orange; 
+}
+
+#btn-destacado {
+color: purple; 
+}
+
+
+article a.btn-comprar {
+color: orange;
+}
+
