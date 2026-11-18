@@ -1,0 +1,23 @@
+
+.btn-comprar {
+  color: var(--color-cuaternario);
+  font-size: var(--font-size); 
+}
+
+
+
+#btn-destacado {
+  color: var(--color); 
+}
+
+
+article a.btn-comprar {
+  color: var(--color-cuaternario);
+  font-size: var(--font-size);
+}
+
+
+.producto {
+  margin: 20px;
+  
+}

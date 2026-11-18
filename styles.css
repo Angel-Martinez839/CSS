@@ -1,34 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap');
+@import url(Components.css);
 
+:root{
+  --color-primario:rgb(214, 10, 10);
+  --color-secundario: rgb(4, 114, 19);
+  --color-terciario:rgb(32, 15, 216);
+  --color-cuaternario:rgb(9, 3, 3);
+  --color-quintario:rgb(223, 212, 156);
+  --font-size:23px;
+  --padding:30px;
+
+}
 body {
-font-family: sans-serif;
-color: gold;
-font-size: 25x;
+  font-family: sans-serif;
+  color: var(--color-quintario);
+  font-size: 15px;
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Redaction 50", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: italic;
+
+
+}
+
+.intro {
+  color: var(--color-secundario);
+  font-size: var(--font-size);
+}
+
+main{
+  background-color: var(--color-quintario);
+  padding: var(--padding);
+  margin: 15px;
+}
+.producto {
+  margin: 20px;
+  
+}
+
+.titulo {
+  color: var(--color-cuaternario);
+  margin: 30px;;
+}
+
+.descripcion {
+  color: var(--color-cuaternario);
+  font-size: var(--font-size);
+}
+
+.precio {
+  color: var(--color-terciario);
+  font-weight: bold;
+  font-size: var(--font-size);
 }
 
 
 header nav ul li a {
-color: blue;
+  color: var(--color-cuaternario);
+  font-size: var(--font-size);
+  padding: var(--padding);
 }
+header{
+  background-color: var(--color-primario);
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 5%;
+  background-image:url(img/images\ \(3\).jpg)
 
+  
+}
 aside ul li a {
-color: green;
+  color: var(--color-secundario);
+  padding: var(--padding);
 }
-
+aside{
+  background-color: aqua;
+  color: var(--color-cuaternario);
+}
 footer ul li a {
-color: red;
+  color: var(--color-cuaternario);
+  font-size: var(--font-size);
 }
 
 
-.btn-comprar {
-color: orange; 
-}
 
-#btn-destacado {
-color: purple; 
-}
-
-
-article a.btn-comprar {
-color: orange;
+footer{
+  background-color: rgb(108, 224, 180);
 }
 
