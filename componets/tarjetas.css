@@ -1,0 +1,56 @@
+header nav ul li a {
+  color: var(--color-cuaternario);
+  font-size: var(--font-size);
+  padding: var(--padding);
+}
+header{
+  background-color: var(--color-primario);
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 5%;
+  background-image:url(img/images\ \(3\).jpg)
+}
+
+
+
+main{
+  background-color: var(--color-quintario);
+  padding: var(--padding);
+  margin: 18px;
+}
+
+.card__titulo {
+  color: var(--color-cuaternario);
+  margin: 30px;;
+}
+
+.intro {
+  color: var(--color-secundario);
+  font-size: var(--font-size);
+}
+
+
+.descripcion {
+  color: var(--color-cuaternario);
+  font-size: var(--font-size);
+}
+
+
+.precio {
+  color: var(--color-terciario);
+  font-weight: bold;
+  font-size: var(--font-size);
+}
+
+
+.card {
+  margin: 20px;
+  
+}
+
+.card {
+  margin: 20px;
+  
+}

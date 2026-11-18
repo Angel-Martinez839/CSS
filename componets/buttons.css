@@ -1,0 +1,27 @@
+
+.btn-comprar__activo {
+  color: var(--color-cuaternario);
+  font-size: var(--font-size); 
+}
+
+
+
+#btn-destacado {
+  color: var(--color); 
+}
+
+
+article a.btn-comprar__activo {
+  color: var(--color-cuaternario);
+  font-size: 15px;
+  padding: 25;
+}
+
+aside ul li a {
+  color: var(--color-secundario);
+  padding: var(--padding);
+}
+aside{
+  background-color: aqua;
+  color: var(--color-cuaternario);
+}
