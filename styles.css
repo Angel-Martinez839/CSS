@@ -1,34 +1,79 @@
-
-body {
-font-family: sans-serif;
-color: gold;
-font-size: 25x;
+:root {
+  --color-primario: #2c3e50;
+  --color-secundario: #e67e22;
+  --color-fondo: #f5f6fa;
+  --color-texto: #333;
+  --color-claro: #fff;
 }
 
+body {
+  font-family: sans-serif;
+  color: var(--color-texto);
+  font-size: 16px;
+  background-color: var(--color-fondo);
+}
 
 header nav ul li a {
-color: blue;
+  color: blue;
 }
 
 aside ul li a {
-color: green;
+  color: green;
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 footer ul li a {
-color: red;
+  color: red;
 }
 
-
 .btn-comprar {
-color: orange; 
+  color: orange;
+  display: inline-block;
+  padding: 8px 16px;
+  border: 2px solid var(--color-secundario);
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 #btn-destacado {
-color: purple; 
+  color: purple;
 }
-
 
 article a.btn-comprar {
-color: orange;
+  color: orange;
 }
 
+aside ul li a:hover {
+  background-color: var(--color-primario);
+  color: var(--color-claro);
+}
+
+aside ul li a::before {
+  content: "• ";
+  color: var(--color-secundario);
+}
+
+aside ul li a:focus {
+  outline: 3px solid var(--color-secundario);
+}
+
+.btn-comprar:hover,
+article a.btn-comprar:hover,
+#btn-destacado:hover {
+  background-color: var(--color-secundario);
+  color: var(--color-claro);
+}
+
+.btn-comprar:active {
+  transform: translateY(2px);
+}
+
+.producto {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+}
